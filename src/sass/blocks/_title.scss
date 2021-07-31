@@ -1,0 +1,28 @@
+.title {
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    text-align: center;
+}
+.descr {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #2e2e2e;
+    text-align: center;
+    &_width880 {
+        width: 880px;
+        margin: 0 auto;
+    }
+    &_width690{
+        width: 690px;
+        margin: 0 auto;
+    }
+    &_width750 {
+        width: 751px;
+        margin: 0 auto;
+    }
+}

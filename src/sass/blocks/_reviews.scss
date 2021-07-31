@@ -1,0 +1,50 @@
+.reviews {
+    min-height: 454px;
+    padding: 51px 0 65px 0;
+}
+.my-slider {
+    width: 600px;
+    margin-top: 31px;
+}
+.slider {
+    
+    width: 600px;
+    &__wrapper {
+        width: 600px;
+    }
+    &__photo {
+        display: block;
+        margin: 0 auto;
+    }
+    &__inner {
+        position: relative;
+        margin: 0 auto;
+        width: 600px;
+        margin-top: 19px;
+    }
+    
+    &__name {
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #3a3a3a;
+    }
+    &__descr {
+        font-size: 14.1px;
+        font-weight: 300;
+        text-align: center;
+       
+    }
+    &__prev, &__next {
+        position: absolute;
+        border: none;
+        background-color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 58%;
+    }
+    &__prev {
+        left: 40%;
+    }
+}

@@ -1,0 +1,29 @@
+.advantage {
+    padding: 57px 0 51px;
+    min-height: 590px;
+    background-color: #f3f3f3;
+    &__wrapper {
+        margin-top: 32px;
+        display: grid;
+        grid-template: repeat(4, auto) / repeat(2, 1fr);
+        gap: 37px 99px;
+    }
+    &__inner {
+       display: grid;
+       grid-template-columns: 64px auto; 
+       column-gap: 20px;
+    }
+    &__title {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        color: $main-color;
+    }
+    &__text {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #3a3a3a;
+        line-height: 17px;
+    }
+}

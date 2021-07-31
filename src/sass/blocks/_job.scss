@@ -1,0 +1,31 @@
+.job {
+    padding: 51px 0 57px;
+    min-height: 620px;
+    &__wrapper {
+        margin-top: 37px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(360px, auto));
+        column-gap: 30px;
+    }
+    &__item {
+        display: grid;
+        grid-template-rows: 210px auto;
+        row-gap: 28px;
+        img {
+            width: 100%;
+        }
+    }
+    &__title {
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: $main-color;
+    }
+    &__text {
+        margin-top: 18px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+}
