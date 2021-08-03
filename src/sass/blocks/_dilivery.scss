@@ -1,8 +1,11 @@
 .dilivery {
+    position: relative;
     min-height: 680px;
     padding: 22px 0 85px;
     background: url("../img/bg_header.jpg") center (center/cover) no-repeat;
+    
     .header {
+        position: relative;
         &__wrapper {
             display: flex;
             width: 100%;
@@ -60,6 +63,9 @@
                     color: $main-color;
                 }
             }
+        }
+        .hamburger {
+            display: none;
         }
     }
     &__wrapper {
